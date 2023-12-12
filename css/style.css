@@ -1273,7 +1273,10 @@ a.brand:focus{
   text-decoration: none;
 }
 
-
+pre {
+  color: #fff;
+  font-size: 1rem
+}
 
 /* 3.2 Section Specialization */
 
