@@ -114,7 +114,7 @@ body{
 
 h1,
 .h1{ 
-  font-family: 'Montserrat', sans-serif;
+  font-family: rubik doodles shadow;
   font-weight: 700;
   font-size: 3.428rem;
   line-height: 1.2;
@@ -1572,7 +1572,7 @@ pre {
 .project-detail-row a{
   display:block;
   text-decoration: none;
-  color:#fff;
+  color:#c32865;
   transition:opacity 0.3s;
 }
 
@@ -1666,6 +1666,7 @@ pre {
 
   .project-title{
     font-size:4.68rem;
+    color: #c32865;
   }
 
   .project-row a:after,
@@ -1755,7 +1756,7 @@ pre {
 .col-partner img{
   margin:0 auto;
   max-width: 100%;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 
 .col-partner:hover img{
