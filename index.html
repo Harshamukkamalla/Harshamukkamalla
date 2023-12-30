@@ -186,19 +186,20 @@
                               <div class="resume-inner">
                                 <div class="resume-row">
                                   <h6 class="resume-type">Batchelor's Of Technology</h6>
-                                  <i class="resume-study">Sarojini High School</i>
-                                  <p class="resume-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nobis animi assumenda sint recusandae! Dolor placeat debitis animi illum quo repellendus pariatur, enim</p>
+                                  <i class="resume-study">PRIST UNIVERSITY</i>
+                                  <p class="resume-text">B. Tech in Electronics and Communications Engineering (ECE) at  PRIST University,in TamilNadu</p>
+                                </div>
+                                <div class="resume-row">
+                                  <h6 class="resume-type">Board Of Intermediate</h6>
+                                  <i class="resume-study">Board Of Intermediate<br>Jan 2004 - Dec 2006</i>
+                                  <p class="resume-text">Board of Intermediate from <strong>Narayana Junior College</strong> at Kurnool in A.P along with 82.8%</p>
                                 </div>
                                 <div class="resume-row">
                                   <h6 class="resume-type">Secondary School Certificate</h6>
                                   <i class="resume-study">Sarojini High School</i>
-                                  <p class="resume-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nobis animi assumenda sint recusandae! Dolor placeat debitis animi illum quo repellendus pariatur, enim</p>
+                                  <p class="resume-text">Secondary school  Education from  <strong>Sarojini High School</strong> at Proddatur in A.P along with CGPA 7.7</p>
                                 </div>
-                                <div class="resume-row">
-                                  <h6 class="resume-type"></h6>
-                                  <i class="resume-study">University of studies, Poland, Cracow<br>Jan 2004 - Dec 2006</i>
-                                  <p class="resume-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nobis animi assumenda sint recusandae! Dolor placeat debitis animi illum quo repellendus pariatur, enim </p>
-                                </div>
+                                
                               </div>
                             </div>
                           </div>
@@ -425,7 +426,7 @@
           </div>
         </div>
       </div>
-      <div data-anchor="page7" class="pp-scrollable text-white section section-7">
+      <!-- <div data-anchor="page7" class="pp-scrollable text-white section section-7">
         <div class="scroll-wrap">
           <div class="section-bg" style="background-image:url(images/bg/reviews.jpg);"></div>
           <div class="bg-quote"></div>
@@ -529,7 +530,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div data-anchor="page8" class="pp-scrollable section section-8">
         <div class="scroll-wrap">
           <div class="section-bg" style="background-image:url(images/bg/contact.jpg);"></div>
@@ -550,24 +551,24 @@
                         </div>
                         <div class="col-md-6">
                           <div class="contact-info">
-                            <form class="js-form" novalidate="novalidate">
+                            <form class="js-form" novalidate="novalidate" onsubmit="emailSend(); reset(); return false;">
                               <div class="row">
                                 <div class="form-group col-sm-6">
-                                  <input type="text" name="name" required="" placeholder="Name*" aria-required="true">
+                                  <input type="text" name="name" required="" id="name" placeholder="Name*" aria-required="true">
                                 </div>
                                 <div class="form-group col-sm-6">
-                                  <input type="email" required="" name="email" placeholder="Email*">
+                                  <input type="email" required="" name="email" id="email"  placeholder="Email*">
                                 </div>
                                 <div class="form-group col-sm-12">
-                                  <input type="text" name="subject" placeholder="Subject (Optinal)">
+                                  <input type="text" name="subject" id="subject" placeholder="Subject (Optinal)">
                                 </div>
                                 <div class="form-group col-sm-12">
-                                  <textarea name="message" required="" placeholder="Message*"></textarea>
+                                  <textarea name="message" required="" id="message" placeholder="Message*"></textarea>
                                 </div>
-                                <div class="form-group form-group-message col-sm-12">
+                                <!-- <div class="form-group form-group-message col-sm-12">
                                   <span id="success" class="text-primary">Thank You, your message is successfully sent!</span>
                                   <span id="error" class="text-primary">Sorry, something went wrong </span>
-                                </div>
+                                </div> -->
                                 <div class="col-sm-12"><button type="submit" class="btn">Contact me</button></div>
                               </div>
                             </form>
@@ -585,7 +586,11 @@
     </div>
   </div>
 <!-- jQuery -->
-
+<script src="js/Validation.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js">
+  
+</script>
 <script src="js/jquery.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/smoothscroll.js"></script>
